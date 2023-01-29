@@ -1,0 +1,49 @@
+@font-face{
+	font-family: D-DIN;
+	src: url(fonts/D-DIN.otf);
+}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	background-color: #000;
+}
+.nav{ 
+	overflow: hidden;
+}
+.nav a{
+	float:left;
+	color:#fff;
+	text-align: center;
+	padding: 0px 25px;
+	font-family: D-DIN;
+	text-decoration: none;
+	font-size: 25px;
+}
+.brand{
+	float: left;
+	color: yellow;
+	font-family: D-DIN;
+	font-size: 25px;
+	text-align: center;
+	padding: 0 25px;
+}
+.turnuva{
+	color: white;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+	width: 100%;
+	font-size: 30px;	 
+}
+.turnuva strong{
+	font-family: D-DIN;
+}
+.tablo, .tablo th, .tablo td{
+	font-family: D-DIN;
+	font-size: 20px;
+	border: 1px solid white;
+	width: 500px;
+	margin: auto;
+}
